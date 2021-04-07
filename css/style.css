@@ -5,8 +5,22 @@
   display: block;
   clear: both;
 }
-html{
-  width: 100%;
+.body{
+  font-family: Lato;
+}
+.center{
+  text-align: center;
+}
+.inline{
+  display: inline-block;
+}
+.subfont{
+  word-break: keep-all;
+  font-size: 20px;
+  line-height: 30px;
+}
+.raleway{
+  font-family: Raleway;
 }
 .inne{
   width: 1100px;
@@ -22,7 +36,6 @@ html{
   font-size: 40px;
 }
 .botton{
-  display: inline-block;
   font-size: 12px;
   padding: 14px 12px;
   background-color: #74cfae;
@@ -33,9 +46,6 @@ html{
 .botton:hover{
   color: #333;
 }
-.main{
-  width: 100%;
-}
 .heading{
   background-color: #f2f2f2;
 }
@@ -43,29 +53,23 @@ html{
   padding: 250px 0;
 }
 .caption{
-  text-align: center;
   font-size: 90px;
   font-weight: 700px;
   color: #74cfae;
+  font-weight: 700;
 }
 .caption_sub{
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
-  text-align: center;
 }
 .section-fast{
   width: 100%;
   background-color: #74cfae;
   padding-top: 50px;
-  text-align: center;
-}
-.iphone{
-  display: inline-block;
 }
 .box{
   width: 750px;
-  display: inline-block;
   word-break: break-all;
   margin-left: 130px;
   color: #fff;
@@ -76,17 +80,14 @@ html{
   padding: 35px;
 }
 .text{
-  font-size: 20px;
-  line-height: 30px;
+  width: 650px;
 }
 .article_text{
-  text-align: center;
   font-size: 24px;
   padding-top: 60px;
   margin-bottom: 40px;
 }
 .article{
-  text-align: center;
   width: 100%;
   background-color: #f2f2f2;
 }
@@ -110,19 +111,16 @@ html{
   margin-left: 0;
 }
 .subbox{
-  text-align: center;
   padding-top: 90px;
   padding-bottom: 70px;
 }
 .subtext{
-  display: inline-block;
-  word-break: break-all;
   padding-right: 90px;
-  width: 525px;
-  line-height: 25px;
+  width: 550px;
+  color: #4e4e4e;
+  font-weight: 300;
 }
 .article_button{
-  display: inline-block;
   background-color: #74cfae;
   font-size: 12px;
   padding: 14px 20px;
@@ -131,16 +129,14 @@ html{
 }
 .section_second{
   background-color: #4e4e4e;
-  text-align: center;
   padding-top: 70px;
   padding-bottom: 100px;
 }
 .section_second_text{
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
 }
 .figure{
-  display: inline-block;
   margin-top: 70px;
   margin-left: 180px;
   font-size:0;
@@ -157,7 +153,6 @@ html{
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #f2f2f2;
-  text-align: center;
 }
 .sns{
   font-size: 50px;
