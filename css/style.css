@@ -251,15 +251,10 @@
   }
 
   .botton{
-    position: absolute;
-    font-size: 12px;
-    padding: 14px 12px;
-    background-color: #74cfae;
-    color: #fff;
     top: 60px;
-    left: 0;
-    right: 0;
     width: 100%;
+    margin: 0 calc(50% - 50vw);
+    left: 0;
   }
 
   .span{
@@ -300,9 +295,8 @@
   }
 
   .box{
+    margin: 0 auto;
     width: 100%;
-    margin-left: 0;
-    vertical-align : 650%;
   }
 
   .imgbox{
@@ -379,6 +373,10 @@
   }
 
   .iphone{
+    margin: 0 auto;
+  }
+
+  .box{
     margin: 0 auto;
   }
 
