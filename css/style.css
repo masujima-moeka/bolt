@@ -319,13 +319,19 @@
   white-space:nowrap;
   overflow:hidden;
   background-color: initial;
+  }
+
+  .span{
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 10px;
   font-size: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
   }
 
-  .botton i{
+  .span i{
     display: block;
     background-color: #ddd;
     width: 30px;
